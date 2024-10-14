@@ -1,5 +1,33 @@
-Install the CA.pem certificate in your browser
+Install the CA.pem certificate for your browser:
 
-Use this guide (For edge, but applies to all):
+- type "cert" into the windows search bar
 
-https://computersluggish.com/windows-tutorials/software-apps/how-to-add-a-certificate-in-microsoft-edge/#:~:text=Microsoft%20Edge%20How%20To%20Add%20Certificates%3A%201%201.,Security%20then%20click%20on%20Manage%20certificates%20More%20items
+- "manage user certificates" should popup. Double left mouse/trackpad click
+
+- Locate the folder named "Personal". Double left mouse/trackpad click on it
+
+- Locate the folder named "Certificates" inside the "Personal" folder. Double left mouse/trackpad click
+
+- Right mouse/trackpad click on the "Certificates" folder. Click on "All Tasks" then "Import"
+
+- Click on Next, then click on browse 
+
+- Locate where the folder where the "CA.pem" file is located and then click on "All files (*,*);" at the bottom of the file explorer
+
+- Click on the "CA.pem" file then click on open
+
+- Click on Next then Next again then Finish then OK
+
+- Right click on the certificate name "Jereshan" then click on copy
+
+- Navigate to the "Trusted Root Certificate Authorities" folder and Double left mouse/trackpad click
+
+- Double left mouse/trackpad click on the "Certificates" folder inside the "Trusted Root Certificate Authorities" folder. 
+
+- Right mouse/trackpad click on an empty space inside the "Certificates" folder and left mouse/trackpad click on paste
+
+- Click on the yes option
+
+- The certificate named "Jereshan" should now be inside that folder
+
+- You may now run the project and a secure https connection should be established.
