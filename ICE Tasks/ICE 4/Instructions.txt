@@ -1,0 +1,5 @@
+Install the CA.pem certificate in your browser
+
+Use this guide (For edge, but applies to all):
+
+https://computersluggish.com/windows-tutorials/software-apps/how-to-add-a-certificate-in-microsoft-edge/#:~:text=Microsoft%20Edge%20How%20To%20Add%20Certificates%3A%201%201.,Security%20then%20click%20on%20Manage%20certificates%20More%20items
